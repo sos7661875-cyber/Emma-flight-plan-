@@ -1,0 +1,140 @@
+{
+  "format": "ocean-flight-plan",
+  "version": 1,
+  "basic": {
+    "name": "RCDC－RCSP 備降場 ETP 範例",
+    "date": "20261010",
+    "hour": 9,
+    "minute": 0,
+    "second": 0,
+    "operating": 80,
+    "cargo": 2,
+    "ramp": 32,
+    "taxi": 1.3,
+    "approach": 5,
+    "groundTemp": 30,
+    "originElev": 0,
+    "destElev": 0,
+    "originOffset": 8,
+    "destOffset": 8,
+    "altitude": 20000,
+    "tas": 300,
+    "tit": 970,
+    "engines": 95,
+    "destination": "Normal",
+    "descentRate": 1500,
+    "descentIAS": 180,
+    "contingency": 15,
+    "alternate": 0,
+    "drag": 0
+  },
+  "route": [
+    {
+      "name": "RCDC",
+      "lat": "N2240.30",
+      "lon": "E12027.70"
+    },
+    {
+      "name": "HCN",
+      "lat": "N2155.67",
+      "lon": "E12050.61"
+    },
+    {
+      "name": "POTIB",
+      "lat": "N2100.00",
+      "lon": "E12045.50"
+    },
+    {
+      "name": "ABVAR",
+      "lat": "N1924.85",
+      "lon": "E12037.71"
+    },
+    {
+      "name": "SAKIS",
+      "lat": "N1905.78",
+      "lon": "E12036.17"
+    },
+    {
+      "name": "KAPOH",
+      "lat": "N1840.76",
+      "lon": "E12034.15"
+    },
+    {
+      "name": "LAO",
+      "lat": "N1810.73",
+      "lon": "E12031.74"
+    },
+    {
+      "name": "CURIM",
+      "lat": "N1800.75",
+      "lon": "E12030.56"
+    },
+    {
+      "name": "KINLA",
+      "lat": "N1740.80",
+      "lon": "E12028.20"
+    },
+    {
+      "name": "MELAN",
+      "lat": "N1715.86",
+      "lon": "E12025.26"
+    },
+    {
+      "name": "SANRO",
+      "lat": "N1643.70",
+      "lon": "E12021.48"
+    },
+    {
+      "name": "TATIL",
+      "lat": "N1540.46",
+      "lon": "E12017.17"
+    },
+    {
+      "name": "VILAR",
+      "lat": "N1509.38",
+      "lon": "E12015.07"
+    },
+    {
+      "name": "SBA",
+      "lat": "N1446.18",
+      "lon": "E12013.50"
+    },
+    {
+      "name": "EXOLO",
+      "lat": "N1403.58",
+      "lon": "E11952.95"
+    },
+    {
+      "name": "REKEL",
+      "lat": "N1335.43",
+      "lon": "E11842.53"
+    },
+    {
+      "name": "NOBEN",
+      "lat": "N1247.20",
+      "lon": "E11644.41"
+    },
+    {
+      "name": "RCSP",
+      "lat": "N1022.67",
+      "lon": "E11421.98"
+    }
+  ],
+  "diversion": {
+    "airports": [
+      {
+        "name": "RPLI",
+        "lat": "N1810.57",
+        "lon": "E12031.87"
+      },
+      {
+        "name": "RPVP",
+        "lat": "N0944.52",
+        "lon": "E11845.58"
+      }
+    ],
+    "tas": "",
+    "windDir": "",
+    "windSpeed": ""
+  }
+}

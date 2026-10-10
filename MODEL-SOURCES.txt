@@ -1,0 +1,8 @@
+WMM2025 coefficients and 100 official verification values:
+https://www.ncei.noaa.gov/sites/default/files/2024-12/WMM2025COF.zip
+https://www.ncei.noaa.gov/products/world-magnetic-model/wmm-coefficients
+Algorithm port: NOAA/NCEI Legacy C (public domain US Government material)
+https://www.ngdc.noaa.gov/geomag/WMM/data/WMM2020/WMM2020LegacyC.zip
+EGM96 geoid: NGA public domain, distributed by PROJ
+https://cdn.proj.org/us_nga_egm96_15.tif
+Downloaded 2026-10-08. This package contains the public-domain WMM coefficient/test data and NGA EGM96 grid and a JavaScript implementation of the synthesis algorithm.

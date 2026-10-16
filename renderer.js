@@ -2,7 +2,7 @@ const windText=x=>x==null?'':String(Math.round(Number(x))%360||360).padStart(3,'
 'use strict';
 const appEl=document.getElementById('app'),statusEl=document.getElementById('file-status'),modal=document.getElementById('modal');
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const headingText=x=>x==null?'':String((Math.round(Number(x))%360+360)%360||360);
+const headingText=x=>x==null?'':String((Math.round(Number(x))%360+360)%360||360).padStart(3,'0');
 let magneticModel=null;
 let page='home',task=null,points=[],result=null,dirty=false,fileName=null,pointPage=0,query='',draftTimer,busy=false;
 const blankRow=()=>({name:'',lat:'',lon:'',variation:'',windDir:'',windSpeed:''});
